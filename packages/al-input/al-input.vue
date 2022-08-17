@@ -11,7 +11,6 @@
 <script>
 export default {
 	name: 'AlInput',
-	inject: ['AlFormItem'],
 	methods: {
     findParent() {
       let parent = this.$parent
