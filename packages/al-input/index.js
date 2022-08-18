@@ -1,4 +1,4 @@
-import AlInput from './al-input'
+import AlInput from './al-input.vue'
 
 AlInput.install = Vue => {
     Vue.component(AlInput.name, AlInput)

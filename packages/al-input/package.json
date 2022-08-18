@@ -3,9 +3,13 @@
 	"version": "0.0.3",
 	"private": true,
 	"description": "",
-	"main": "index.js",
+	"main": "dist/bundle.cjs.js",
+	"module": "dist/bundle.umd.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build:prod": "cross-env NODE_ENV=production rollup -c",
+		"build:dev": "cross-env NODE_ENV=development rollup -c",
+		"delete:dist": "rimraf dist",
+		"test": "jest"
 	},
 	"keywords": [],
 	"author": "",

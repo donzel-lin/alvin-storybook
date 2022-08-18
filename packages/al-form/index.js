@@ -1,4 +1,4 @@
-import AlForm from './al-form'
+import AlForm from './al-form.vue'
 
 AlForm.install = Vue => {
     Vue.component(AlForm.name, AlForm)
