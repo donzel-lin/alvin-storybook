@@ -3,11 +3,11 @@
 // yarn clear, 清掉node_modules
 ```
 - 初始化storybook
-```json
+```javascript
 npx -p @storybook/cli sb --type vue
 ```
 - 运行storybook
-```json
+```javascript
 yarn storybook
 ```
 #### lerna
@@ -17,6 +17,6 @@ npm i lerna -g
 lerna init
 ```
 - 会在项目根目录下，生成 lerna.json文件
-```json
+```javascript
 lerna publish // 发布包，未成功过，报git无法连接
 ```
