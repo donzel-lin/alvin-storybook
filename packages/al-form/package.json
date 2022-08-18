@@ -8,8 +8,9 @@
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"dependencies": {
+		"lodash": "^4.17.21",
 		"vue-template-compiler": "^2.7.8"
 	}
 }

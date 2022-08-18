@@ -10,7 +10,8 @@
 		"build": "vue-cli-service build",
 		"lint": "vue-cli-service lint",
 		"storybook": "start-storybook -p 6006",
-		"build-storybook": "build-storybook"
+		"build-storybook": "build-storybook",
+		"clear": "lerna clean"
 	},
 	"dependencies": {
 		"core-js": "^3.6.5",
