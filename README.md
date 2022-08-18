@@ -1,4 +1,5 @@
 # storybook
+- 查看[文档](https://www.yuque.com/u25493014/dg2lxu/rps0at/edit)
 ```javascript
 // yarn clear, 清掉node_modules
 ```
