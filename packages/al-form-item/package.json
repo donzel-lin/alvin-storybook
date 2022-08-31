@@ -1,9 +1,12 @@
 {
 	"name": "@alvin-lin/al-form-item",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"description": "",
 	"main": "dist/bundle.cjs.js",
 	"module": "dist/bundle.umd.js",
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"build:prod": "cross-env NODE_ENV=production rollup -c",
 		"build:dev": "cross-env NODE_ENV=development rollup -c",
@@ -17,5 +20,5 @@
 		"lodash": "^3.10.1",
 		"vue-template-compiler": "^2.7.8"
 	},
-	"gitHead": "fc7467640efc6759233d01ff70a3074096b8a74f"
+	"gitHead": "351dfaab4524a41276b1206a35806a55f2dbdfe6"
 }
