@@ -9,8 +9,9 @@ module.exports = {
     input: './index.js',
     output: [
         {
-            file: 'dist/bundle.cjs.js',
-            format: 'cjs',
+            file: 'dist/bundle.umd.min.js',
+            format: 'umd',
+            name: 'alvin-form-bundle'
         },
         {
             file: 'dist/bundle.esm.js',

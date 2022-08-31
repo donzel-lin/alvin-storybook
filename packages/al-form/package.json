@@ -2,8 +2,8 @@
 	"name": "@alvin-lin/al-form",
 	"version": "0.0.1",
 	"description": "",
-	"main": "dist/bundle.cjs.js",
-	"module": "dist/bundle.umd.js",
+	"main": "dist/bundle.umd.min.js",
+	"module": "dist/bundle.esm.js",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -17,7 +17,6 @@
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
-		"lodash": "^4.17.21",
 		"vue-template-compiler": "^2.7.8"
 	},
 	"gitHead": "351dfaab4524a41276b1206a35806a55f2dbdfe6"

@@ -2,8 +2,8 @@
 	"name": "@alvin-lin/alvin-input",
 	"version": "0.0.1",
 	"description": "",
-	"main": "dist/bundle.cjs.js",
-	"module": "dist/bundle.umd.js",
+	"main": "dist/bundle.umd.min.js",
+	"module": "dist/bundle.esm.js",
 	"publishConfig": {
 		"access": "public"
 	},
