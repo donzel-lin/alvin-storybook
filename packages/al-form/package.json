@@ -1,7 +1,6 @@
 {
-	"name": "al-form",
-	"version": "0.0.3",
-	"private": true,
+	"name": "@alvin-lin/al-form",
+	"version": "0.0.0",
 	"description": "",
 	"main": "dist/bundle.cjs.js",
 	"module": "dist/bundle.umd.js",
