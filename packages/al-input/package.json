@@ -1,6 +1,6 @@
 {
 	"name": "@alvin-lin/alvin-input",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"description": "",
 	"main": "dist/bundle.cjs.js",
 	"module": "dist/bundle.umd.js",
@@ -16,5 +16,5 @@
 	"dependencies": {
 		"vue-template-compiler": "^2.7.8"
 	},
-	"gitHead": "5f92e98562d544554d6c706f045d7cca24b1adca"
+	"gitHead": "fc7467640efc6759233d01ff70a3074096b8a74f"
 }
