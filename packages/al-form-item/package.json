@@ -1,6 +1,6 @@
 {
 	"name": "@alvin-lin/al-form-item",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"description": "",
 	"main": "dist/bundle.cjs.js",
 	"module": "dist/bundle.umd.js",
@@ -16,5 +16,6 @@
 	"dependencies": {
 		"lodash": "^3.10.1",
 		"vue-template-compiler": "^2.7.8"
-	}
+	},
+	"gitHead": "af8bf82c16f1ffd1941fa9ce48f270ddc96a265a"
 }
